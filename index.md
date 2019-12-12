@@ -6,8 +6,8 @@
 </head>
  
 <body>
-  <div style="background-color:black;width:100%;height:500px" align="center" color:#111>
-  呜呜，我的父亲走了！</div>
+  
+  呜呜，我的父亲走了！
 </body>
  
 </html>
