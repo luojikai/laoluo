@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myfirst</title>
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      div{
+          width: 500px;
+          height: 665px;
+          border: 1px solid #000;
+          margin: 100px auto;
+          overflow: hidden;
+
+      }
+      ul{
+          width: 8000px;
+          height: 665px;
+          background-color: black;
+          animation: move 30s linear infinite normal;
+
+      }
+      ul li{
+          list-style: none;
+          width: 500px;
+          height: 665px;
+          background-color: red;
+          border: 1px solid #000;
+          box-sizing: border-box;
+          float: left;
+      }
+      ul:hover{
+          animation-play-state: paused;
+      }
+
+      ul:hover li{
+          opacity: 0.5;
+      }
+      ul li:hover{
+          opacity: 1;
+      }
+      @keyframes move {
+          from{
+              margin-left: 0;
+          }
+          to{
+              margin-left: -5500px;
+          }
+      }
+    </style>
+</head>
+<body>
+<!--<div>
+    <img src="old.jpg" width="500">
+</div><-->
+<div>
+    <ul>
+        <li><img src="pa001.jpg" alt=""></li>
+        <li><img src="pa002.jpg" alt=""></li>
+        <li><img src="pa003.jpg" alt=""></li>
+        <li><img src="pa004.jpg" alt=""></li>
+        <li><img src="pa005.jpg" alt=""></li>
+        <li><img src="pa006.jpg" alt=""></li>
+        <li><img src="pa007.jpg" alt=""></li>
+        <li><img src="pa008.jpg" alt=""></li>
+        <li><img src="pa009.jpg" alt=""></li>
+        <li><img src="pa010.jpg" alt=""></li>
+    </ul>
+</div>
+
+</body>
+</html>
